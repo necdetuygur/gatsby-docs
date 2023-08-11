@@ -32,7 +32,7 @@ const linkActiveStyle = {
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <main style={pageStyles}>
-      <h1 style={headingStyles}>Welcome docs!</h1>
+      <h1 style={headingStyles}>PRTime</h1>
 
       <div>
         <Link style={linkStyle} activeStyle={linkActiveStyle} to="/">
@@ -49,6 +49,12 @@ const IndexPage: React.FC<PageProps> = () => {
         </Link>
       </div>
 
+      <p style={paragraphStyles}>
+        Temporibus quia consequuntur distinctio itaque voluptates numquam beatae
+        asperiores ut, maxime, repellat ratione. Architecto minus, voluptatum
+        quas error amet aspernatur, odio excepturi nobis porro sit fugit! Maxime
+        voluptate consequuntur praesentium!
+      </p>
       <p style={paragraphStyles}>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi unde
         asperiores, temporibus ratione reprehenderit laudantium officia dolorum
@@ -73,16 +79,10 @@ const IndexPage: React.FC<PageProps> = () => {
         deserunt maxime tenetur autem debitis porro. Saepe repellat dolorum eius
         quibusdam doloribus iste cum!
       </p>
-      <p style={paragraphStyles}>
-        Temporibus quia consequuntur distinctio itaque voluptates numquam beatae
-        asperiores ut, maxime, repellat ratione. Architecto minus, voluptatum
-        quas error amet aspernatur, odio excepturi nobis porro sit fugit! Maxime
-        voluptate consequuntur praesentium!
-      </p>
     </main>
   );
 };
 
 export default IndexPage;
 
-export const Head: HeadFC = () => <title>Docs</title>;
+export const Head: HeadFC = () => <title>PRTime</title>;

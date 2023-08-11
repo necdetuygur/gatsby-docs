@@ -32,7 +32,7 @@ const linkActiveStyle = {
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <main style={pageStyles}>
-      <h1 style={headingStyles}>Welcome docs!</h1>
+      <h1 style={headingStyles}>Project 2</h1>
 
       <div>
         <Link style={linkStyle} activeStyle={linkActiveStyle} to="/">
@@ -85,4 +85,4 @@ const IndexPage: React.FC<PageProps> = () => {
 
 export default IndexPage;
 
-export const Head: HeadFC = () => <title>Docs</title>;
+export const Head: HeadFC = () => <title>Project 2</title>;
